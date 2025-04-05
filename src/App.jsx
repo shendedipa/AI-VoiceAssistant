@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Mainchatbot from "./components/mainchatbot";
+import Mainchatbot from "./components/Mainchatbot";
 import Home from "./components/HomePage";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 
 function App() {
   return (
